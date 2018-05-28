@@ -1,6 +1,6 @@
 # Xossip-bulk-image-downloader
 This is python code to bulk download images from a xossip thread. (as of 28th May 2018 formatting)
-The code can be slightly modified to download images from other famous image boards. Learn Beautiful soup if you wish to DIY or drop me a message on which website you would like next.
+The code can be slightly modified to download images from other famous image boards. Learn Beautiful soup if you wish to DIY or drop me a message on which website you would like next. I work on this in my free time and lots of improvements are required. Please contribute if you can code.
 ## List of steps to use this code.
 1. Install Python 3.
 2. pip install all required modules in code.
@@ -32,6 +32,9 @@ If you cant be bothered with all this, I'll release a simple exe soon.
 3. Multithreaded webpage parsing (Should not impact host)
 4. Create Summary and time for download at end of program
 5. Create Exe
+6. Create Logging capability
+7. Create commandline progress bars for each thread
+8. Add other image forums
 
 ## Known Bugs:
 1. First page gets downloaded again for each non existant page specified.
