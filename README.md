@@ -34,7 +34,7 @@ If you cant be bothered with all this, I'll release a simple exe soon.
 5. Create Exe
 6. Create Logging capability
 7. Create commandline progress bars for each thread
-8. Add other image forums
+8. Add option to separate scan and download functions
 
 ## Known Bugs:
 1. First page gets downloaded again for each non existant page specified.
