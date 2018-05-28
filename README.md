@@ -30,7 +30,7 @@ If you cant be bothered with all this, I'll release a simple exe soon.
 1. Add all variables as arguments
 2. Verbose Mode
 3. Multithreaded webpage parsing (Should not impact host)
-4. Create Summary and time for download at end of program
+4. Complete Error handling
 5. Create Exe
 6. Create Logging capability
 7. Create commandline progress bars for each thread
@@ -40,4 +40,5 @@ If you cant be bothered with all this, I'll release a simple exe soon.
 1. First page gets downloaded again for each non existant page specified.
 2. Original file naming not robust. If the Url has some php at end of jpg the file extension will be affected.
 3. Command line status update not robust. Needs Debugging.
+4. If server is not active error not handled. 
 
