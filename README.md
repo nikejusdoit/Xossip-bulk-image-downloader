@@ -2,7 +2,7 @@
 This is python code to bulk download images from a xossip thread. (as of 28th May 2018 formatting)
 The code can be slightly modified to download images from other famous image boards. Learn Beautiful soup if you wish to DIY or drop me a message on which website you would like next.
 
-##Inputs
+## Inputs
 
 - Forum Thread number: find this in the URL. For "https://www.xossip.com/showthread.php?t=**1527778**" the thread number is 1527778.
 
@@ -20,11 +20,11 @@ The code can be slightly modified to download images from other famous image boa
 
 - File Min Size: Min file size to download. This serves to filter out images of emoticons and other non relevant images.
 
-##Future work required:
+## Future work required:
 1. Verbose Mode
 2. Multithreaded webpage parsing
 3. Create Summary and time for download at end of program
 
-##Known Bugs:
+## Known Bugs:
 1. First page gets downloaded again for each non existant page specified.
 2. Original file naming not robust. If the Url has some php at end of jpg the file extension will be affected.
