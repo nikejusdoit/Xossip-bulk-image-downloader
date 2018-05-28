@@ -10,7 +10,7 @@ The code can be slightly modified to download images from other famous image boa
 
 - Thread End Page number: Last Page till which you want to download the images.
 
-- Paralell download count: number of paralell image downloads. Higher = faster but irresponsible.(Recommended 5)
+- Paralell download count: number of paralell image downloads. Higher = faster **Be Responsible. Don't overload host.**
 
 - File Save Location: Specify the folder location. Folder must exist.
 
@@ -22,7 +22,7 @@ The code can be slightly modified to download images from other famous image boa
 
 ## Future work required:
 1. Verbose Mode
-2. Multithreaded webpage parsing
+2. Multithreaded webpage parsing (Should not impact host)
 3. Create Summary and time for download at end of program
 
 ## Known Bugs:
